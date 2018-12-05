@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_isim_beh.exe" -prj "C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_beh.prj" "work.cpu1_test" 

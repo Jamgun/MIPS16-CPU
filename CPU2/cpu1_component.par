@@ -1,0 +1,251 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-9N00CAS::  Tue Dec 04 17:02:24 2018
+
+par -w -intstyle ise -ol high -t 1 cpu1_component_map.ncd cpu1_component.ncd
+cpu1_component.pcf 
+
+
+Constraints file: cpu1_component.pcf.
+Loading device for application Rf_Device from file '3s1200e.nph' in environment D:\ise\14.7\ISE_DS\ISE\.
+   "cpu1_component" is an NCD, version 3.2, device xc3s1200e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          97 out of 250    38%
+
+   Number of External Input IOBs                  5
+
+      Number of External Input IBUFs              5
+        Number of LOCed External Input IBUFs      5 out of 5     100%
+
+
+   Number of External Output IOBs                60
+
+      Number of External Output IOBs             60
+        Number of LOCed External Output IOBs     60 out of 60    100%
+
+
+   Number of External Bidir IOBs                 32
+
+      Number of External Bidir IOBs              32
+        Number of LOCed External Bidir IOBs      32 out of 32    100%
+
+
+   Number of BUFGMUXs                        2 out of 24      8%
+   Number of Slices                        846 out of 8672    9%
+      Number of SLICEMs                     64 out of 4336    1%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 2 secs 
+Total CPU  time at the beginning of Placer: 2 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:6c27e0fd) REAL time: 2 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:6c27e0fd) REAL time: 2 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:6c27e0fd) REAL time: 2 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:60d02b54) REAL time: 4 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:60d02b54) REAL time: 4 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:60d02b54) REAL time: 4 secs 
+
+Phase 7.8  Global Placement
+.................................
+...........................
+..................................................
+...................................................
+..................................................
+Phase 7.8  Global Placement (Checksum:cce95c89) REAL time: 6 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:cce95c89) REAL time: 6 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:92fe319b) REAL time: 7 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:92fe319b) REAL time: 7 secs 
+
+Total REAL time to Placer completion: 7 secs 
+Total CPU  time to Placer completion: 7 secs 
+Writing design to file cpu1_component.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 6103 unrouted;      REAL time: 15 secs 
+
+Phase  2  : 5696 unrouted;      REAL time: 15 secs 
+
+Phase  3  : 1722 unrouted;      REAL time: 16 secs 
+
+Phase  4  : 1712 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Updating file: cpu1_component.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+
+Updating file: cpu1_component.ncd with current fully routed design.
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
+WARNING:Route:455 - CLK Net:memory/Mtrien_Ram2Data_not0001 may have excessive skew because 
+      3 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:exe_mem/mem_WriteMemSel_o<0> may have excessive skew because 
+      4 CLK pins and 22 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 27 secs 
+Total CPU time to Router completion: 27 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|            clk_IBUF |  BUFGMUX_X1Y1| No   |  280 |  0.205     |  0.377      |
++---------------------+--------------+------+------+------------+-------------+
+|            rst_IBUF |  BUFGMUX_X2Y1| No   |   16 |  0.111     |  0.303      |
++---------------------+--------------+------+------+------------+-------------+
+|exe_mem/mem_WriteMem |              |      |      |            |             |
+|            Sel_o<0> |         Local|      |   41 |  1.664     |  4.091      |
++---------------------+--------------+------+------+------------+-------------+
+|memory/Ram1Addr_and0 |              |      |      |            |             |
+|                 000 |         Local|      |   16 |  0.081     |  1.910      |
++---------------------+--------------+------+------+------------+-------------+
+|memory/Mtrien_Ram2Da |              |      |      |            |             |
+|          ta_not0001 |         Local|      |   16 |  1.145     |  3.388      |
++---------------------+--------------+------+------+------------+-------------+
+|ctrl/AluSel1_Control |              |      |      |            |             |
+|       _ID_o_not0001 |         Local|      |    3 |  0.011     |  1.736      |
++---------------------+--------------+------+------+------------+-------------+
+|alu/theALUout_or0001 |              |      |      |            |             |
+|                     |         Local|      |   16 |  0.066     |  1.759      |
++---------------------+--------------+------+------+------------+-------------+
+|extendimm/dr_not0001 |              |      |      |            |             |
+|                     |         Local|      |   14 |  0.708     |  2.521      |
++---------------------+--------------+------+------+------------+-------------+
+|ctrl/BUnitSel_Contro |              |      |      |            |             |
+|      l_ID_o_not0001 |         Local|      |   10 |  0.374     |  2.110      |
++---------------------+--------------+------+------+------------+-------------+
+|ctrl/Reg2_Control_ID |              |      |      |            |             |
+|          _o_not0001 |         Local|      |    6 |  0.036     |  1.762      |
++---------------------+--------------+------+------+------------+-------------+
+|    reg/sreg_and0000 |         Local|      |    2 |  0.079     |  1.822      |
++---------------------+--------------+------+------+------------+-------------+
+|extendimm/rt_not0001 |              |      |      |            |             |
+|                     |         Local|      |    4 |  0.009     |  1.191      |
++---------------------+--------------+------+------+------------+-------------+
+|stall/id_ifidstall_o |              |      |      |            |             |
+|            _not0001 |         Local|      |    1 |  0.000     |  1.110      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|    12.109ns|     N/A|           0
+  _IBUF                                     | HOLD        |     0.931ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net rst | SETUP       |         N/A|     2.153ns|     N/A|           0
+  _IBUF                                     | HOLD        |     1.380ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 28 secs 
+Total CPU time to PAR completion: 28 secs 
+
+Peak Memory Usage:  4480 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 2
+Number of info messages: 1
+
+Writing design to file cpu1_component.ncd
+
+
+
+PAR done!

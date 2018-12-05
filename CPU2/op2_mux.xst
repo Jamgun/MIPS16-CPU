@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/zsh/Desktop/jiyuan/CPU2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/zsh/Desktop/jiyuan/CPU2/xst"
+elaborate
+-ifn op2_mux.prj
+-ifmt mixed

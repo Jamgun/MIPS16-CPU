@@ -1,0 +1,311 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n 3
+-fastpaths -xml cpu1_component.twx cpu1_component.ncd -o cpu1_component.twr
+cpu1_component.pcf -ucf cpu1_component.ucf
+
+Design file:              cpu1_component.ncd
+Physical constraint file: cpu1_component.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Ram2Data<0> |    2.065(R)|   -0.410(R)|clk_IBUF          |   0.000|
+Ram2Data<1> |    3.220(R)|   -1.335(R)|clk_IBUF          |   0.000|
+Ram2Data<2> |    2.920(R)|   -1.087(R)|clk_IBUF          |   0.000|
+Ram2Data<3> |    3.517(R)|   -1.565(R)|clk_IBUF          |   0.000|
+Ram2Data<4> |    3.062(R)|   -1.205(R)|clk_IBUF          |   0.000|
+Ram2Data<5> |    3.104(R)|   -1.239(R)|clk_IBUF          |   0.000|
+Ram2Data<6> |    2.366(R)|   -0.647(R)|clk_IBUF          |   0.000|
+Ram2Data<7> |    2.354(R)|   -0.644(R)|clk_IBUF          |   0.000|
+Ram2Data<8> |    2.131(R)|   -0.466(R)|clk_IBUF          |   0.000|
+Ram2Data<9> |    2.612(R)|   -0.851(R)|clk_IBUF          |   0.000|
+Ram2Data<10>|    1.718(R)|   -0.136(R)|clk_IBUF          |   0.000|
+Ram2Data<11>|    3.344(R)|   -1.435(R)|clk_IBUF          |   0.000|
+Ram2Data<12>|    2.800(R)|   -0.994(R)|clk_IBUF          |   0.000|
+Ram2Data<13>|    2.678(R)|   -0.897(R)|clk_IBUF          |   0.000|
+Ram2Data<14>|    2.254(R)|   -0.557(R)|clk_IBUF          |   0.000|
+Ram2Data<15>|    2.584(R)|   -0.821(R)|clk_IBUF          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock rst
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Ram1Data<0> |   -0.013(F)|    1.269(F)|rst_IBUF          |   0.000|
+Ram1Data<1> |    0.047(F)|    1.220(F)|rst_IBUF          |   0.000|
+Ram1Data<2> |    0.644(F)|    0.742(F)|rst_IBUF          |   0.000|
+Ram1Data<3> |    0.891(F)|    0.545(F)|rst_IBUF          |   0.000|
+Ram1Data<4> |   -0.008(F)|    1.265(F)|rst_IBUF          |   0.000|
+Ram1Data<5> |    0.599(F)|    0.780(F)|rst_IBUF          |   0.000|
+Ram1Data<6> |    0.524(F)|    0.840(F)|rst_IBUF          |   0.000|
+Ram1Data<7> |    0.047(F)|    1.221(F)|rst_IBUF          |   0.000|
+Ram1Data<8> |    0.232(F)|    1.072(F)|rst_IBUF          |   0.000|
+Ram1Data<9> |    1.395(F)|    0.141(F)|rst_IBUF          |   0.000|
+Ram1Data<10>|    0.778(F)|    0.635(F)|rst_IBUF          |   0.000|
+Ram1Data<11>|    0.283(F)|    1.031(F)|rst_IBUF          |   0.000|
+Ram1Data<12>|    0.897(F)|    0.543(F)|rst_IBUF          |   0.000|
+Ram1Data<13>|    0.940(F)|    0.508(F)|rst_IBUF          |   0.000|
+Ram1Data<14>|    1.265(F)|    0.244(F)|rst_IBUF          |   0.000|
+Ram1Data<15>|    0.836(F)|    0.588(F)|rst_IBUF          |   0.000|
+Ram2Data<0> |    2.498(F)|   -0.756(F)|rst_IBUF          |   0.000|
+Ram2Data<1> |    4.139(F)|   -2.068(F)|rst_IBUF          |   0.000|
+Ram2Data<2> |    2.389(F)|   -0.678(F)|rst_IBUF          |   0.000|
+Ram2Data<3> |    2.365(F)|   -0.660(F)|rst_IBUF          |   0.000|
+Ram2Data<4> |    1.866(F)|   -0.248(F)|rst_IBUF          |   0.000|
+Ram2Data<5> |    1.490(F)|    0.052(F)|rst_IBUF          |   0.000|
+Ram2Data<6> |    3.012(F)|   -1.169(F)|rst_IBUF          |   0.000|
+Ram2Data<7> |    2.851(F)|   -1.040(F)|rst_IBUF          |   0.000|
+Ram2Data<8> |    2.244(F)|   -0.571(F)|rst_IBUF          |   0.000|
+Ram2Data<9> |    2.175(F)|   -0.516(F)|rst_IBUF          |   0.000|
+Ram2Data<10>|    2.562(F)|   -0.806(F)|rst_IBUF          |   0.000|
+Ram2Data<11>|    2.782(F)|   -0.981(F)|rst_IBUF          |   0.000|
+Ram2Data<12>|    2.880(F)|   -1.056(F)|rst_IBUF          |   0.000|
+Ram2Data<13>|    2.734(F)|   -0.939(F)|rst_IBUF          |   0.000|
+Ram2Data<14>|    2.732(F)|   -0.947(F)|rst_IBUF          |   0.000|
+Ram2Data<15>|    2.405(F)|   -0.686(F)|rst_IBUF          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+L<0>        |   15.715(R)|clk_IBUF          |   0.000|
+L<1>        |   19.822(R)|clk_IBUF          |   0.000|
+L<2>        |   17.188(R)|clk_IBUF          |   0.000|
+L<3>        |   17.039(R)|clk_IBUF          |   0.000|
+L<4>        |   17.560(R)|clk_IBUF          |   0.000|
+L<5>        |   16.133(R)|clk_IBUF          |   0.000|
+L<6>        |   16.804(R)|clk_IBUF          |   0.000|
+L<7>        |   16.826(R)|clk_IBUF          |   0.000|
+L<8>        |   16.543(R)|clk_IBUF          |   0.000|
+L<9>        |   19.497(R)|clk_IBUF          |   0.000|
+L<10>       |   17.424(R)|clk_IBUF          |   0.000|
+L<11>       |   16.389(R)|clk_IBUF          |   0.000|
+L<12>       |   16.405(R)|clk_IBUF          |   0.000|
+L<13>       |   17.500(R)|clk_IBUF          |   0.000|
+L<14>       |   16.016(R)|clk_IBUF          |   0.000|
+L<15>       |   16.166(R)|clk_IBUF          |   0.000|
+Ram1Data<0> |   17.998(R)|clk_IBUF          |   0.000|
+Ram1Data<1> |   17.918(R)|clk_IBUF          |   0.000|
+Ram1Data<2> |   18.361(R)|clk_IBUF          |   0.000|
+Ram1Data<3> |   18.923(R)|clk_IBUF          |   0.000|
+Ram1Data<4> |   19.352(R)|clk_IBUF          |   0.000|
+Ram1Data<5> |   18.186(R)|clk_IBUF          |   0.000|
+Ram1Data<6> |   19.203(R)|clk_IBUF          |   0.000|
+Ram1Data<7> |   18.305(R)|clk_IBUF          |   0.000|
+Ram1Data<8> |   19.936(R)|clk_IBUF          |   0.000|
+Ram1Data<9> |   20.979(R)|clk_IBUF          |   0.000|
+Ram1Data<10>|   18.682(R)|clk_IBUF          |   0.000|
+Ram1Data<11>|   18.679(R)|clk_IBUF          |   0.000|
+Ram1Data<12>|   18.952(R)|clk_IBUF          |   0.000|
+Ram1Data<13>|   19.851(R)|clk_IBUF          |   0.000|
+Ram1Data<14>|   19.431(R)|clk_IBUF          |   0.000|
+Ram1Data<15>|   19.983(R)|clk_IBUF          |   0.000|
+Ram1EN      |   19.691(R)|clk_IBUF          |   0.000|
+Ram1OE      |   17.623(R)|clk_IBUF          |   0.000|
+Ram2Addr<0> |   19.487(R)|clk_IBUF          |   0.000|
+Ram2Addr<1> |   21.715(R)|clk_IBUF          |   0.000|
+Ram2Addr<2> |   20.897(R)|clk_IBUF          |   0.000|
+Ram2Addr<3> |   21.915(R)|clk_IBUF          |   0.000|
+Ram2Addr<4> |   22.986(R)|clk_IBUF          |   0.000|
+Ram2Addr<5> |   21.647(R)|clk_IBUF          |   0.000|
+Ram2Addr<6> |   21.416(R)|clk_IBUF          |   0.000|
+Ram2Addr<7> |   22.368(R)|clk_IBUF          |   0.000|
+Ram2Addr<8> |   23.086(R)|clk_IBUF          |   0.000|
+Ram2Addr<9> |   21.655(R)|clk_IBUF          |   0.000|
+Ram2Addr<10>|   20.610(R)|clk_IBUF          |   0.000|
+Ram2Addr<11>|   21.047(R)|clk_IBUF          |   0.000|
+Ram2Addr<12>|   20.911(R)|clk_IBUF          |   0.000|
+Ram2Addr<13>|   21.613(R)|clk_IBUF          |   0.000|
+Ram2Addr<14>|   21.122(R)|clk_IBUF          |   0.000|
+Ram2Addr<15>|   21.982(R)|clk_IBUF          |   0.000|
+rdn         |   24.782(R)|clk_IBUF          |   0.000|
+wrn         |   21.623(R)|clk_IBUF          |   0.000|
+------------+------------+------------------+--------+
+
+Clock rst to Pad
+------------+------------+------------------------------+--------+
+            | clk (edge) |                              | Clock  |
+Destination |   to PAD   |Internal Clock(s)             | Phase  |
+------------+------------+------------------------------+--------+
+Ram1Addr<0> |   15.797(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<1> |   15.797(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<2> |   15.789(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<3> |   15.789(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<4> |   15.787(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<5> |   15.787(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<6> |   15.730(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<7> |   15.730(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<8> |   15.718(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<9> |   15.718(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<10>|   15.716(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<11>|   15.716(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<12>|   15.731(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<13>|   15.731(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<14>|   15.737(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram1Addr<15>|   15.737(R)|memory/Ram1Addr_and0000       |   0.000|
+Ram2Data<0> |   21.598(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<1> |   21.814(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<2> |   22.525(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<3> |   22.706(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<4> |   21.924(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<5> |   21.561(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<6> |   22.706(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<7> |   21.924(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<8> |   21.883(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<9> |   22.283(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<10>|   21.561(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<11>|   21.593(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<12>|   21.878(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<13>|   22.283(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<14>|   21.593(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+Ram2Data<15>|   21.878(F)|memory/Mtrien_Ram2Data_not0001|   0.000|
+------------+------------+------------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   11.826|    6.055|    5.959|         |
+rst            |   13.005|   13.005|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rst
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   11.310|         |   18.257|         |
+rst            |    6.885|    6.885|   17.017|   17.017|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Ram2Data<0>    |L<0>           |   11.084|
+Ram2Data<1>    |L<1>           |   12.873|
+Ram2Data<2>    |L<2>           |   11.981|
+Ram2Data<3>    |L<3>           |   12.293|
+Ram2Data<4>    |L<4>           |   11.568|
+Ram2Data<5>    |L<5>           |   11.788|
+Ram2Data<6>    |L<6>           |   11.415|
+Ram2Data<7>    |L<7>           |   12.334|
+Ram2Data<8>    |L<8>           |   11.430|
+Ram2Data<9>    |L<9>           |   10.263|
+Ram2Data<10>   |L<10>          |   10.726|
+Ram2Data<11>   |L<11>          |   10.165|
+Ram2Data<12>   |L<12>          |   12.690|
+Ram2Data<13>   |L<13>          |   10.364|
+Ram2Data<14>   |L<14>          |   10.749|
+Ram2Data<15>   |L<15>          |   11.970|
+clk            |rdn            |   13.692|
+clk            |wrn            |    9.862|
+data_ready     |Ram1Data<1>    |    8.055|
+rst            |L<0>           |   16.287|
+rst            |L<1>           |   20.394|
+rst            |L<2>           |   17.760|
+rst            |L<3>           |   17.611|
+rst            |L<4>           |   18.132|
+rst            |L<5>           |   16.705|
+rst            |L<6>           |   17.376|
+rst            |L<7>           |   17.398|
+rst            |L<8>           |   17.115|
+rst            |L<9>           |   20.069|
+rst            |L<10>          |   17.996|
+rst            |L<11>          |   16.961|
+rst            |L<12>          |   16.977|
+rst            |L<13>          |   18.072|
+rst            |L<14>          |   16.588|
+rst            |L<15>          |   16.738|
+rst            |Ram1Data<0>    |   18.392|
+rst            |Ram1Data<1>    |   18.452|
+rst            |Ram1Data<2>    |   18.826|
+rst            |Ram1Data<3>    |   19.388|
+rst            |Ram1Data<4>    |   19.886|
+rst            |Ram1Data<5>    |   18.720|
+rst            |Ram1Data<6>    |   19.737|
+rst            |Ram1Data<7>    |   18.839|
+rst            |Ram1Data<8>    |   20.470|
+rst            |Ram1Data<9>    |   21.513|
+rst            |Ram1Data<10>   |   19.216|
+rst            |Ram1Data<11>   |   19.213|
+rst            |Ram1Data<12>   |   19.486|
+rst            |Ram1Data<13>   |   20.385|
+rst            |Ram1Data<14>   |   19.965|
+rst            |Ram1Data<15>   |   20.517|
+rst            |Ram1EN         |   20.263|
+rst            |Ram1OE         |   18.195|
+rst            |Ram2Addr<0>    |   19.954|
+rst            |Ram2Addr<1>    |   22.186|
+rst            |Ram2Addr<2>    |   21.368|
+rst            |Ram2Addr<3>    |   22.389|
+rst            |Ram2Addr<4>    |   23.463|
+rst            |Ram2Addr<5>    |   22.118|
+rst            |Ram2Addr<6>    |   21.890|
+rst            |Ram2Addr<7>    |   22.839|
+rst            |Ram2Addr<8>    |   23.563|
+rst            |Ram2Addr<9>    |   22.129|
+rst            |Ram2Addr<10>   |   21.087|
+rst            |Ram2Addr<11>   |   21.527|
+rst            |Ram2Addr<12>   |   21.391|
+rst            |Ram2Addr<13>   |   22.093|
+rst            |Ram2Addr<14>   |   21.597|
+rst            |Ram2Addr<15>   |   22.462|
+rst            |rdn            |   25.354|
+rst            |wrn            |   22.195|
+tbre           |Ram1Data<0>    |    8.547|
+tsre           |Ram1Data<0>    |    9.653|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Dec 04 17:02:59 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4546 MB
+
+
+

@@ -1,0 +1,230 @@
+V3 137
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/alu_component.vhd 2018/12/03.03:44:47 P.20131013
+EN work/alu_component 1543938813 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/alu_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alu_component/Behavioral 1543938814 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/alu_component.vhd \
+      EN work/alu_component 1543938813
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/branch_component.vhd 2018/12/02.01:13:20 P.20131013
+EN work/branch_component 1543938825 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/branch_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/branch_component/Behavioral 1543938826 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/branch_component.vhd \
+      EN work/branch_component 1543938825
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/control_component.vhd 2018/12/04.15:38:06 P.20131013
+EN work/control_component 1543938797 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/control_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/control_component/Behavioral 1543938798 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/control_component.vhd \
+      EN work/control_component 1543938797
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/cpu1_component.vhd 2018/12/04.21:34:41 P.20131013
+EN work/cpu1_component 1543938837 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/cpu1_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/cpu1_component/Behavioral 1543938838 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/cpu1_component.vhd \
+      EN work/cpu1_component 1543938837 CP pc_component CP memory_component \
+      CP pcadder4_component CP newpc_mux CP stall_component CP if_id_component \
+      CP control_component CP reg_component CP extend_component CP id_exe_component \
+      CP pcadderimm_component CP op1_mux CP op2_mux CP exe_wdmux CP alu_component \
+      CP forward_component CP wd_forward CP exe_mem_component CP mem_wdmux \
+      CP writeback_mux CP branch_component CP mem_wb_component
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_mem_component.vhd 2018/12/03.22:55:57 P.20131013
+EN work/exe_mem_component 1543938819 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_mem_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/exe_mem_component/Behavioral 1543938820 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_mem_component.vhd \
+      EN work/exe_mem_component 1543938819
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_wdmux.vhd 2018/12/03.21:12:47 P.20131013
+EN work/exe_wdmux 1543938811 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_wdmux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/exe_wdmux/Behavioral 1543938812 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/exe_wdmux.vhd EN work/exe_wdmux 1543938811
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/extend_component.vhd 2018/12/03.19:04:32 P.20131013
+EN work/extend_component 1543938801 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/extend_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/extend_component/Behavioral 1543938802 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/extend_component.vhd \
+      EN work/extend_component 1543938801
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/forward_component.vhd 2018/12/03.18:01:14 P.20131013
+EN work/forward_component 1543938815 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/forward_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/forward_component/Behavioral 1543938816 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/forward_component.vhd \
+      EN work/forward_component 1543938815
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/id_exe_component.vhd 2018/12/03.22:38:24 P.20131013
+EN work/id_exe_component 1543938803 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/id_exe_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/id_exe_component/Behavioral 1543938804 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/id_exe_component.vhd \
+      EN work/id_exe_component 1543938803
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/if_id_component.vhd 2018/12/03.22:32:29 P.20131013
+EN work/if_id_component 1543938795 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/if_id_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/if_id_component/Behavioral 1543938796 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/if_id_component.vhd \
+      EN work/if_id_component 1543938795
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ipcore_dir/fontRom.vhd 2018/12/04.19:47:34 P.20131013
+EN work/fontRom 1543938831 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ipcore_dir/fontRom.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fontRom/fontRom_a 1543938832 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ipcore_dir/fontRom.vhd \
+      EN work/fontRom 1543938831
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/keyboard_0.vhd 2018/12/04.23:44:52 P.20131013
+EN work/keyboard_0 1543938829 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/keyboard_0.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/keyboard_0/Behavioral 1543938830 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/keyboard_0.vhd \
+      EN work/keyboard_0 1543938829
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/memory_component.vhd 2018/12/04.17:01:46 P.20131013
+EN work/memory_component 1543938787 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/memory_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/memory_component/Behavioral 1543938788 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/memory_component.vhd \
+      EN work/memory_component 1543938787
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wb_component.vhd 2018/12/03.22:57:51 P.20131013
+EN work/mem_wb_component 1543938827 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wb_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mem_wb_component/Behavioral 1543938828 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wb_component.vhd \
+      EN work/mem_wb_component 1543938827
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wdmux.vhd 2018/12/03.21:14:44 P.20131013
+EN work/mem_wdmux 1543938821 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wdmux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mem_wdmux/Behavioral 1543938822 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/mem_wdmux.vhd EN work/mem_wdmux 1543938821
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/newpc_mux.vhd 2018/12/04.21:05:28 P.20131013
+EN work/newpc_mux 1543938791 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/newpc_mux.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/newpc_mux/Behavioral 1543938792 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/newpc_mux.vhd EN work/newpc_mux 1543938791
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op1_mux.vhd 2018/12/03.18:06:01 P.20131013
+EN work/op1_mux 1543938807 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op1_mux.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/op1_mux/Behavioral 1543938808 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op1_mux.vhd EN work/op1_mux 1543938807
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op2_mux.vhd 2018/12/03.18:05:53 P.20131013
+EN work/op2_mux 1543938809 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op2_mux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/op2_mux/Behavioral 1543938810 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/op2_mux.vhd EN work/op2_mux 1543938809
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadder4_component.vhd 2018/12/03.00:08:15 P.20131013
+EN work/pcadder4_component 1543938789 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadder4_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/pcadder4_component/Behavioral 1543938790 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadder4_component.vhd \
+      EN work/pcadder4_component 1543938789
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadderimm_component.vhd 2018/12/02.22:10:38 P.20131013
+EN work/pcadderimm_component 1543938805 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadderimm_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/pcadderimm_component/Behavioral 1543938806 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pcadderimm_component.vhd \
+      EN work/pcadderimm_component 1543938805
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pc_component.vhd 2018/12/04.02:38:52 P.20131013
+EN work/pc_component 1543938785 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pc_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/pc_component/Behavioral 1543938786 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/pc_component.vhd \
+      EN work/pc_component 1543938785
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ps2.vhd 2018/12/04.23:47:04 P.20131013
+EN work/ps2 1543938835 FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ps2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ps2/Behavioral 1543938836 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/ps2.vhd EN work/ps2 1543938835 \
+      CP keyboard_0
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/reg_component.vhd 2018/12/04.21:53:41 P.20131013
+EN work/reg_component 1543938799 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/reg_component.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/reg_component/Behavioral 1543938800 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/reg_component.vhd \
+      EN work/reg_component 1543938799
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/stall_component.vhd 2018/12/02.03:17:28 P.20131013
+EN work/stall_component 1543938793 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/stall_component.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/stall_component/Behavioral 1543938794 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/stall_component.vhd \
+      EN work/stall_component 1543938793
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/top.vhd 2018/12/04.23:52:23 P.20131013
+EN work/top 1543938839 FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1543938840 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/top.vhd EN work/top 1543938839 \
+      CP vga CP ps2 CP cpu1_component
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/vga.vhd 2018/12/04.19:53:09 P.20131013
+EN work/vga 1543938833 FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/vga.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/vga/behave 1543938834 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/vga.vhd EN work/vga 1543938833 \
+      CP fontRom
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/wd_forward.vhd 2018/12/03.21:24:24 P.20131013
+EN work/wd_forward 1543938817 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/wd_forward.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/wd_forward/Behavioral 1543938818 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/wd_forward.vhd \
+      EN work/wd_forward 1543938817
+FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/writeback_mux.vhd 2018/12/04.20:06:35 P.20131013
+EN work/writeback_mux 1543938823 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/writeback_mux.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/writeback_mux/Behavioral 1543938824 \
+      FL C:/Users/zsh/Desktop/CPUsim2/CPUsim/CPU2/writeback_mux.vhd \
+      EN work/writeback_mux 1543938823
+FL D:/iseFiles/CPUsim/CPU2/alu_component.vhd 2018/12/03.03:44:47 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/branch_component.vhd 2018/12/02.01:13:20 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/control_component.vhd 2018/12/04.15:38:06 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/cpu1_component.vhd 2018/12/04.21:34:41 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/exe_mem_component.vhd 2018/12/03.22:55:57 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/exe_wdmux.vhd 2018/12/03.21:12:47 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/extend_component.vhd 2018/12/03.19:04:32 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/forward_component.vhd 2018/12/03.18:01:14 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/id_exe_component.vhd 2018/12/03.22:38:24 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/if_id_component.vhd 2018/12/03.22:32:29 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/ipcore_dir/fontRom.vhd 2018/12/04.19:47:34 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/memory_component.vhd 2018/12/04.17:01:46 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/mem_wb_component.vhd 2018/12/03.22:57:51 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/mem_wdmux.vhd 2018/12/03.21:14:44 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/newpc_mux.vhd 2018/12/04.21:05:28 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/op1_mux.vhd 2018/12/03.18:06:01 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/op2_mux.vhd 2018/12/03.18:05:53 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/pcadder4_component.vhd 2018/12/03.00:08:15 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/pcadderimm_component.vhd 2018/12/02.22:10:38 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/pc_component.vhd 2018/12/04.02:38:52 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/reg_component.vhd 2018/12/04.21:53:41 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/stall_component.vhd 2018/12/02.03:17:28 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/top.vhd 2018/12/04.22:17:39 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/vga.vhd 2018/12/04.19:53:09 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/wd_forward.vhd 2018/12/03.21:24:24 P.20131013
+FL D:/iseFiles/CPUsim/CPU2/writeback_mux.vhd 2018/12/04.20:06:35 P.20131013

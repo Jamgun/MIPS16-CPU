@@ -1,0 +1,13 @@
+ISim log file
+Running: C:\Users\zsh\Desktop\CPUsim\CPU2\cpu1_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu1_test/uut/pc_adderimm/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /cpu1_test/uut/reg/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /cpu1_test/uut/reg/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.

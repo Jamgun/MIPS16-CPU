@@ -1,0 +1,36 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/iseFiles/CPUsim/CPU2/pa.fromNetlist.tcl
+# create_project -name CPU1 -dir "D:/iseFiles/CPUsim/CPU2/planAhead_run_2" -part xc3s1200efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/iseFiles/CPUsim/CPU2/top.ngc" [ get_property srcset [ current_run ] ]
+WARNING: [Designutils 20-342] File / dir doesn't exist, skipping: D:/iseFiles/CPUsim/CPU2/top.ngc
+# add_files -norecurse { {D:/iseFiles/CPUsim/CPU2} {ipcore_dir} }
+# add_files [list {ipcore_dir/fontRom.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ram1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ram2.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "top.ucf" [current_fileset -constrset]
+Adding file 'D:/iseFiles/CPUsim/CPU2/top.ucf' to fileset 'constrs_1'
+# add_files [list {top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s1200efg320-4
+
+    while executing
+"link_design"
+    (file "D:/iseFiles/CPUsim/CPU2/pa.fromNetlist.tcl" line 14)
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 04 19:55:43 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

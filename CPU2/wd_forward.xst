@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/zsh/Desktop/CPUsim/CPU2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/zsh/Desktop/CPUsim/CPU2/xst"
+elaborate
+-ifn wd_forward.prj
+-ifmt mixed

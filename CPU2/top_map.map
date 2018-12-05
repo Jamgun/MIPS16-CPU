@@ -1,0 +1,145 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off
+-c 100 -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc3s1200e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue Dec 04 23:53:51 2018
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/Reg2_Control_ID_o_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/memory/Ram1Addr_and0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/memory/Mtrien_Ram2Data_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/BUnitSel_Control_ID_o_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/alu/theALUout_or0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/extendimm/dr_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/extendimm/rt_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/reg/sreg_and0000 is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/stall/id_ifidstall_o_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/AluSel1_Control_ID_o_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   18
+Logic Utilization:
+  Total Number Slice Registers:         697 out of  17,344    4%
+    Number used as Flip Flops:          600
+    Number used as Latches:              97
+  Number of 4 input LUTs:             2,103 out of  17,344   12%
+Logic Distribution:
+  Number of occupied Slices:          1,311 out of   8,672   15%
+    Number of Slices containing only related logic:   1,311 out of   1,311 100%
+    Number of Slices containing unrelated logic:          0 out of   1,311   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,175 out of  17,344   12%
+    Number used as logic:             2,103
+    Number used as a route-thru:         72
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                110 out of     250   44%
+    IOB Latches:                         51
+  Number of RAMB16s:                      1 out of      28    3%
+  Number of BUFGMUXs:                     4 out of      24   16%
+
+Average Fanout of Non-Clock Nets:                3.52
+
+Peak Memory Usage:  4459 MB
+Total REAL time to MAP completion:  4 secs 
+Total CPU time to MAP completion:   4 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "top_map.mrp" for details.

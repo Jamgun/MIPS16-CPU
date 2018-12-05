@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/alu_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/branch_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/control_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/cpu1_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/dm_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/exe_mem_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/exe_wdmux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/extend_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/forward_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/id_exe_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/if_id_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/im_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/keyboard_0.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/mem_wb_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/mem_wdmux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/memory_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/newpc_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/op1_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/op2_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/pc_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/pcadder4_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/pcadderimm_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/ps2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/reg_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/stall_component.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/vga.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/wd_forward.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/zsh/Documents/seventerm/jiyuan/bigpro/CPUsim2.0/CPUsim/CPU2/writeback_mux.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

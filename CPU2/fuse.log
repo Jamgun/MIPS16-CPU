@@ -1,0 +1,79 @@
+Running: D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_isim_beh.exe -prj C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_beh.prj work.cpu1_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/ipcore_dir/ram2.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/ipcore_dir/ram1.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/writeback_mux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/wd_forward.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/stall_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/reg_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/pc_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/pcadderimm_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/pcadder4_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/op2_mux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/op1_mux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/newpc_mux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/mem_wdmux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/mem_wb_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/im_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/if_id_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/id_exe_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/forward_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/extend_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/exe_wdmux.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/exe_mem_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/dm_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/control_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/branch_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/alu_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_component.vhd" into library work
+Parsing VHDL file "C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity pc_component [pc_component_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ram2_a of entity ram2 [ram2_default]
+Compiling architecture behavioral of entity im_component [im_component_default]
+Compiling architecture behavioral of entity pcadder4_component [pcadder4_component_default]
+Compiling architecture behavioral of entity newpc_mux [newpc_mux_default]
+Compiling architecture behavioral of entity stall_component [stall_component_default]
+Compiling architecture behavioral of entity if_id_component [if_id_component_default]
+Compiling architecture behavioral of entity control_component [control_component_default]
+Compiling architecture behavioral of entity reg_component [reg_component_default]
+Compiling architecture behavioral of entity extend_component [extend_component_default]
+Compiling architecture behavioral of entity id_exe_component [id_exe_component_default]
+Compiling architecture behavioral of entity pcadderimm_component [pcadderimm_component_default]
+Compiling architecture behavioral of entity op1_mux [op1_mux_default]
+Compiling architecture behavioral of entity op2_mux [op2_mux_default]
+Compiling architecture behavioral of entity exe_wdmux [exe_wdmux_default]
+Compiling architecture behavioral of entity alu_component [alu_component_default]
+Compiling architecture behavioral of entity forward_component [forward_component_default]
+Compiling architecture behavioral of entity wd_forward [wd_forward_default]
+Compiling architecture behavioral of entity exe_mem_component [exe_mem_component_default]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ram1_a of entity ram1 [ram1_default]
+Compiling architecture behavioral of entity dm_component [dm_component_default]
+Compiling architecture behavioral of entity mem_wdmux [mem_wdmux_default]
+Compiling architecture behavioral of entity writeback_mux [writeback_mux_default]
+Compiling architecture behavioral of entity branch_component [branch_component_default]
+Compiling architecture behavioral of entity mem_wb_component [mem_wb_component_default]
+Compiling architecture behavioral of entity cpu1_component [cpu1_component_default]
+Compiling architecture behavior of entity cpu1_test
+Time Resolution for simulation is 1ps.
+Waiting for 31 sub-compilation(s) to finish...
+Compiled 71 VHDL Units
+Built simulation executable C:/Users/zsh/Desktop/CPUsim/CPU2/cpu1_test_isim_beh.exe
+Fuse Memory Usage: 40952 KB
+Fuse CPU Usage: 1436 ms

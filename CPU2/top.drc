@@ -1,0 +1,81 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Dec 04 23:54:58 2018
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/Reg2_Control_ID_o_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/memory/Ram1Addr_and0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/memory/Mtrien_Ram2Data_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/BUnitSel_Control_ID_o_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/alu/theALUout_or0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/extendimm/dr_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/extendimm/rt_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/reg/sreg_and0000 is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/stall/id_ifidstall_o_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cpu_component/ctrl/AluSel1_Control_ID_o_not0001 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<vga_component/fontRom_component/U0/xst_blk_mem_generator/gnativebmg.na
+   tive_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp9x9.ram.A>:<
+   RAMB16_RAMB16A>.
+DRC detected 0 errors and 18 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
